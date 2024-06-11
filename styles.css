@@ -16,6 +16,7 @@ h1 {
 
 h4 {
     color: rgb(71, 64, 64);
+    text-align: center;
 }
 
 .header-content{
@@ -45,7 +46,7 @@ nav a:hover {
 }
 
 main {
-    padding: 30px;
+    padding: 50px;
 }
 
 footer {
