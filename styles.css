@@ -57,23 +57,12 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
-}
-
-.footer-content .left,
-.footer-content .center,
-.footer-content .right {
-    flex: 1;
+    padding: 0 30px;
 }
 
 .footer-content .left img,
-.footer-content .right .social-media img {
+.footer-content .social-media img {
     height: 30px;
-}
-
-.footer-content .right .social-media {
-    display: flex;
-    gap: 10px;
 }
 
 .footer-content p {
