@@ -5,6 +5,29 @@ body {
     padding: 0;
 }
 
+.input-group {
+    margin-bottom: 10px;
+    background-color: #5fa36a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.input-group label {
+    margin-right: 10px;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+button {
+    text-align: center;
+}
+
 header {
     background-color: #63B97B;
     padding: 25px 0;
@@ -47,6 +70,7 @@ nav a:hover {
 
 main {
     padding: 50px;
+    text-align: center;
 }
 
 footer {
@@ -64,7 +88,7 @@ footer {
 
 .footer-content .left img,
 .footer-content .social-media img {
-    height: 30px;
+    height: 35px;
 }
 
 .footer-content p {
@@ -78,5 +102,5 @@ footer {
 
 .footer-content .right h4 {
     text-align: left;
-    padding-top: 30px;
+    padding-top: 10px;
 }
