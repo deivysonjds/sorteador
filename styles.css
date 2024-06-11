@@ -1,0 +1,136 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    background-color: #5fa36a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.input-group label {
+    font-family:'Lucida Sans', sans-serif;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #1d1a1a;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+button {
+    text-align: center;
+    color: #01344a;
+    border: 3px solid #01344a;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #3fc245;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #32861c;
+}
+
+button:active {
+    background-color: #3fc245;
+    transition: background-color 0.1s;
+}
+
+header {
+    background-color: #63B97B;
+    padding: 25px 0;
+}
+
+h1 {
+    text-align: center;
+    color: #497929;
+}
+
+h4 {
+    color: rgb(71, 64, 64);
+    text-align: center;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: rgb(63, 57, 57);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 15px;
+    text-align: center;
+}
+
+footer {
+    background-color: lightgray;
+    color: rgb(104, 104, 104);
+    margin-bottom: 0px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.footer-content .left img,
+.footer-content .social-media img {
+    height: 35px;
+}
+
+.footer-content p {
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+.footer-content .center {
+    text-align: center;
+}
+
+.footer-content .right h4 {
+    text-align: left;
+    padding-top: 10px;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

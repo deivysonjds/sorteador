@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sorteador de Números</title>
+    <link rel="icon" href="Imagens/icone.png" type="Imagens/icone">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="./src/img/logo.png" alt="Logo" class="logo">
+            <nav>
+                <a href="index.html">Sorteador de Números</a>
+                <a href="/src/sorteio_nomes/">Sorteador de Nomes</a>
+                <a href="/src/sorteio_equipe/">Sorteador de Equipes</a>
+                <a href="/src/como_funciona/">Como Funciona</a>
+                <a href="/src/sobre_nos/">Sobre Nós</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>Sorteador de Números</h1>
+        <div class="input-group">
+            <label for="min">Número Mínimo:</label>
+            <input type="number" id="min" value="1">
+        </div>
+        <div class="input-group">
+            <label for="max">Número Máximo:</label>
+            <input type="number" id="max" value="100">
+        </div><br>
+        <button onclick="sortearNumero()">Sortear</button>
+        <div class="result" id="resultado"></div>
+    </main>
+        
+    <footer>        
+        <div class="footer-content">
+            <div class="left">
+                <img src="/src/img/icone.png" alt="Logo" class="logo">
+                <p>Copyright © 2024.</p>
+                <p>Todos os direitos reservados.</p>    
+            </div>            
+            <div class="center">
+                <h4>Desenvolvido &lt;/&gt; na UNICAP</h4>
+            </div>  
+            <div class="social-media">
+                <h4>Redes Sociais</h4>
+                <img src="/src/img/iconFacebook.png" alt="Facebook">
+                <img src="/src/img/iconInstagram.png" alt="Instagram">
+                <img src="/src/img/iconLinkedin.png" alt="Linkedin">
+                <img src="/src/img/iconTikTok.png" alt="TikTok">
+            </div>  
+            <div class="right">
+                <h4>Termos</h4>
+                <p>Política de Privacidade</p>
+                <p>Termos de Serviço</p><br>
+            </div>
+        </div>
+    </footer>
+                
+<script src="script.js"></script> <br>
+</body>
+
+</html>
