@@ -41,6 +41,15 @@ button {
     justify-content: center;
 }
 
+button:hover {
+    background-color: #32861c;
+}
+
+button:active {
+    background-color: #3fc245;
+    transition: background-color 0.1s;
+}
+
 header {
     background-color: #63B97B;
     padding: 25px 0;
