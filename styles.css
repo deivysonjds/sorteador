@@ -15,7 +15,10 @@ body {
 }
 
 .input-group label {
+    font-family:'Lucida Sans', sans-serif;
+    font-weight: bold;
     margin-right: 10px;
+    color: #1d1a1a;
 }
 
 .result {
@@ -26,6 +29,16 @@ body {
 
 button {
     text-align: center;
+    color: #01344a;
+    border: 3px solid #01344a;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #3fc245;
+    justify-content: center;
 }
 
 header {
@@ -35,6 +48,7 @@ header {
 
 h1 {
     text-align: center;
+    color: #599133;
 }
 
 h4 {
@@ -69,7 +83,7 @@ nav a:hover {
 }
 
 main {
-    padding: 50px;
+    padding: 15px;
     text-align: center;
 }
 
