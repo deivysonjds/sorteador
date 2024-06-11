@@ -50,7 +50,7 @@ main {
 
 footer {
     background-color: lightgray;
-    color: rgb(71, 64, 64);
+    color: rgb(104, 104, 104);
 }
 
 .footer-content {
@@ -66,6 +66,7 @@ footer {
 }
 
 .footer-content p {
+    font-size: 13px;
     margin: 5px 0;
 }
 
