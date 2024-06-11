@@ -9,4 +9,9 @@ function sortearNumero() {
 
     const numeroSorteado = Math.floor(Math.random() * (max - min + 1)) + min;
     document.getElementById('resultado').textContent = `Número sorteado: ${numeroSorteado}`;
+
+    const button = document.querySelector('button');
+    button.classList.add('blink');
+    
+    button.textContent = 'Sortear Novamente';
 }
