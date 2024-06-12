@@ -25,3 +25,9 @@ button:hover {
     background-color: #32861c; /*Muda a cor do botão ao passar com o mouse*/
     
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
