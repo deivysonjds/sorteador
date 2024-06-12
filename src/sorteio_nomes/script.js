@@ -25,6 +25,9 @@ function sortearNomes() {
 
     // Exibe o nome sorteado no parágrafo com o id "resultado"
     document.getElementById("resultado").innerText = `Nome sorteado: ${nomeSorteado}`;
+
+    // Muda o texto do botão "Sortear" para "Sortear Novamente"
+    document.getElementById("sortear").innerText = "Sortear Novamente";
 }
 
 // Função para sortear nomes sem repetição
@@ -46,7 +49,6 @@ function sortearNomesSemRepetir() {
         return; // Encerra a função
     }
     
-
     // Sorteia um índice aleatório baseado no comprimento do array de nomes não sorteados
     let indiceAleatorio = Math.floor(Math.random() * listaDeNomes.length);
 
