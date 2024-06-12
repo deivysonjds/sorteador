@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../../styles.css">
     <title>Sorteio Nomes</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/src/img/icone.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -24,11 +25,12 @@
 
     <main>
         <div>
-       <h2>Sortear Nomes</h2>
-       <label for="nomes"> Insira os nomes, Separados por vírgulas:</label><br>
-       <textarea name="sortearnomes" id="nomes" rows="10" cols="80"></textarea><br><br>
-       <button onclick="Sortear" =SortearNomes() > Sortear Agora</button>
-       <p id="resultado"></p>
+         <h1>Sorteador de Nomes</h1>
+         <label for="nomes"> Insira os nomes, Separados por vírgulas:</label><br>
+         <textarea name="sortearnomes" id="nomes" rows="10" cols="80"></textarea><br><br>
+         <button id="sortear" onclick="sortearNomes()">Sortear Agora</button>
+         <button id="sortearSemRepetir" onclick="sortearNomesSemRepetir()">Sortear sem Repetir</button>
+         <p id="resultado">Resultado:</p>
         </div>
 
     </main>

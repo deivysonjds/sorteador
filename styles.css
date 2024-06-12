@@ -82,34 +82,3 @@ footer {
     padding-top: 5px;
 }
 
-.container {
-    display: flex;
-    width: 40rem;
-}
-
-
-.item {
-    flex: 1;
-}
-
-
-.item {
-    padding: 10px;
-    margin: 5px;
-}
-
-.div-center{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-}
-
-.profile{
-    display: flex;
-    justify-content: right;
-    align-items: center;
-}
-
-.list{
-    border: 1px solid #000;
-}

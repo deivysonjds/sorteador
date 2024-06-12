@@ -1,14 +1,27 @@
 div{
-    text-align: center;
-    color: #497929;
+    text-align: center; /*alinhamento do conteúdo da div no centro*/
+    font-weight: bold; /*Negrito*/
+    color: #497929; /*cor do texto */
+    padding: 40px; /*Espaçamento*/
 }
 
 button{
-    background-color: #63b97b;
-    width:200px ; right: 10px;
-    
+    background-color: #3fc245; /*Cor do botão*/ /**/
+    padding: 7px 15px;       /* Espaçamento interno */
+    text-align: center;       /* Alinhamento do texto */
+    text-decoration: none;    /* Sem sublinhado */
+    display: inline-block;    /* Exibição inline com bloco */
+    font-size: 16px;          /* Tamanho da fonte */
+    margin: 4px 2px;          /* Margem externa */
+    border-radius: 8px; /*Arredondar os cantos*/
+    color: #01344a; /*Cor do texto*/
+    border: 2px solid #01344a; /*Largura e cor da borda*/
+    justify-content: center; /*Texto justificado ao centro*/
 }
 
 button:hover {
-    cursor: pointer;
+    
+    cursor: pointer;          /* Transforma o cursor em uma mão */
+    background-color: #32861c; /*Muda a cor do botão ao passar com o mouse*/
+    
 }
