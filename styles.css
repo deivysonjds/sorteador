@@ -84,3 +84,38 @@ footer{
     bottom: 0;
     left: 0;
 }
+
+.container {
+    display: flex;
+    width: 50rem;
+  }
+
+
+  .item {
+    flex: 1;
+  }
+
+
+  .item {
+    
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .div-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+
+  .profile{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  .list{
+    border: 1px solid #000;
+  }
