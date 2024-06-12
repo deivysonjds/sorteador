@@ -1,4 +1,4 @@
-div{
+#container {
     text-align: center; /*alinhamento do conteúdo da div no centro*/
     font-weight: bold; /*Negrito*/
     color: #497929; /*cor do texto */
