@@ -41,6 +41,10 @@ nav a {
     font-weight: bold;
 }
 
+#a-select {
+    color: white;
+}
+
 nav a:hover {
     text-decoration: underline;
 }
@@ -50,7 +54,6 @@ footer {
     color: rgb(104, 104, 104);
     margin-bottom: 0px;
     width: 100%;
-    bottom: 0;
 }
 
 .footer-content {
