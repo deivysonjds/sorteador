@@ -1,7 +1,4 @@
 body {
-    display: flex; 
-    flex-direction: column;
-    justify-content: space-between;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;

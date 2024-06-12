@@ -38,4 +38,24 @@ main {
     display: flex;
     flex-direction: column;
     width: max-content;
+    text-align: center;
+}
+
+button{
+    background-color: #3fc245;  
+    padding: 7px 15px;  
+    text-align: center; 
+    text-decoration: none;  
+    display: inline-block;  
+    font-size: 16px;    
+    margin: 4px 2px;    
+    border-radius: 8px;
+    color: #01344a;     
+    border: 2px solid #01344a; 
+    justify-content: center; 
+}
+
+button:hover {
+    cursor: pointer;          
+    background-color: #32861c; 
 }
