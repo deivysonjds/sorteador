@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../styles.css">
     <title>Sorteio Nomes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -18,9 +19,15 @@
                 <a href="/src/sobre_nos/">Sobre Nós</a>
             </nav>
         </div>
+
     </header>
 
     <main>
+       <h2>Sortear Nomes</h2>
+       <label for="nomes"> Insira os nomes, Separados por vírgulas:</label><br>
+       <textarea name="sortearnomes" id="nomes" rows="10" cols="80"></textarea><br><br>
+       <button onclick="Sortear" =SortearNomes() > Sortear Agora</button>
+       <p id="resultado"></p>
 
     </main>
         
@@ -48,5 +55,6 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
