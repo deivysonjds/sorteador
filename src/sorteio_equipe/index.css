@@ -3,10 +3,15 @@ main {
     justify-content: center;
 }
 
+#content-pag {
+    display: flex;
+    flex-direction: column;
+}
+
 #container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: space-between;
 }
 
 .container-center {
