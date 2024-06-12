@@ -25,11 +25,12 @@
 
     <main>
         <div>
-       <h2>Sortear Nomes</h2>
-       <label for="nomes"> Insira os nomes, Separados por vírgulas:</label><br>
-       <textarea name="sortearnomes" id="nomes" rows="10" cols="80"></textarea><br><br>
-       <button onclick="Sortear" =SortearNomes() > Sortear Agora</button>
-       <p id="resultado"></p>
+         <h2>Sortear Nomes</h2>
+         <label for="nomes"> Insira os nomes, Separados por vírgulas:</label><br>
+         <textarea name="sortearnomes" id="nomes" rows="10" cols="80"></textarea><br><br>
+         <button id="sortear" onclick="sortearNomes()">Sortear Agora</button>
+         <button id="sortearSemRepetir" onclick="sortearNomesSemRepetir()">Sortear Sem Repetir</button>
+         <p id="resultado">Resultado:</p>
         </div>
 
     </main>
