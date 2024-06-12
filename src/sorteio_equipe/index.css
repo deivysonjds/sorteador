@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-center {
+    width: 10rem;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    padding: 1em;
+    background-color: #5fa36a;
+    margin: 1rem;
+    border-radius: 15px;
+}
+
+.input-equipes {
+    margin: 0px 3px 0px 3px;
+    width: 3rem;
+    padding: 0px 1px 0px 1px;
+}
+
+.nomes-container {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
