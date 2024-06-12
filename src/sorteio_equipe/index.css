@@ -60,14 +60,18 @@ button:hover {
     background-color: #32861c; 
 }
 
-.div-equipes {
+.resultado-container {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     text-align: center;
+    justify-content: center;
 }
+
 .eqp-sort {
-    width: 15rem;
-    margin: 0px 5px 10px 5px;
+    width: 10rem;
+    padding-bottom: 10px;
     border: black solid 2px;
-    padding: 5px;
+    text-align: center;
+    
 }
