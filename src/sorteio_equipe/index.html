@@ -29,11 +29,11 @@
                 <div id="container">
                     <div class="main-content">
                         <label for="equipe">Número de equipes: </label>
-                        <input class="input-equipes" id="equipe" type="number">
+                        <input class="input-equipes" id="equipe" type="text">
                     </div>
                     <div class="main-content">
                         <label for="n-jgdrs">Número de jogadores: </label>
-                        <input class="input-equipes" id="n-jgdrs" type="number">
+                        <input class="input-equipes" id="n-jgdrs" type="text">
                     </div>
                 </div>
                 <div class="nomes-container">
@@ -43,17 +43,17 @@
                     </span>
                     <textarea name="" id="nomes-jogadores" rows="10" cols="80"></textarea>
                     <div>
-                        <button>
+                        <button onclick="sortearEquipes()">
                             Sortear
                         </button>
                     </div>
                 </div>
                 <div class="nomes-container"> 
-                    <h2>
-                        Divisão de equipes
-                    </h2>
-                    <div class="div-equipes">
-        
+                    <p id="resultado">
+                        
+                    </p>
+                    <div id="div-equipes">
+                        <p id="times"></p>
                     </div>
                 </div>
             </div>

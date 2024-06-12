@@ -39,6 +39,7 @@ main {
     flex-direction: column;
     width: max-content;
     text-align: center;
+    justify-content: center;
 }
 
 button{
@@ -48,14 +49,25 @@ button{
     text-decoration: none;  
     display: inline-block;  
     font-size: 16px;    
-    margin: 4px 2px;    
+    margin: 2rem;    
     border-radius: 8px;
     color: #01344a;     
     border: 2px solid #01344a; 
-    justify-content: center; 
 }
 
 button:hover {
     cursor: pointer;          
     background-color: #32861c; 
+}
+
+.div-equipes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.eqp-sort {
+    width: 15rem;
+    margin: 0px 5px 10px 5px;
+    border: black solid 2px;
+    padding: 5px;
 }
