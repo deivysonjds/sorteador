@@ -33,15 +33,12 @@ function sortearEquipes(){
     lista_sorteada = []
     for (const index of lista_de_index_sorteados) {
         lista_sorteada.push(lista_Nomes[index])
-        console.log(`teste 0 - ${lista_Nomes} - ${lista_Nomes[index]}`);
     }
-    console.log(`teste 1 - ${lista_sorteada}`);
         
     texto = ""
     contagem = 0
     for (let index_Time = 0; index_Time < quantidade_Times; index_Time++) {
         texto = `${texto}\n\n time ${index_Time+1}`
-        console.log(`teste 2 - ${texto}`);
             for (let index_jogadores = 0; index_jogadores < quantidade_Jogadores_por_time; index_jogadores++) {
                 texto =  `${texto}\n ${index_jogadores+1} - ${lista_sorteada[contagem]}`
                 contagem ++               
