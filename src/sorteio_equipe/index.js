@@ -25,9 +25,7 @@ function sortearEquipes(){
     for (const index in lista_Nomes) {
         do {
             index_sorteado = Math.floor(Math.random() * lista_Nomes.length)
-            console.log(`teste 0 - ${index_sorteado}`);
             find_index = lista_de_index_sorteados.find((element) => element == index_sorteado)
-            console.log(`teste 1 - ${find_index}`);
         } while (find_index != undefined);
         lista_de_index_sorteados.push(index_sorteado)
     }
