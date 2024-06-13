@@ -11,6 +11,11 @@ function sortearEquipes(){
         return;
     }
 
+    if (lista_Nomes.length < quantidade_Jogadores_por_time*quantidade_Times) {
+        window.alert("Quantidade de jogadores desejada não foi atingida.\n Adicione nome(s)!")
+        return;
+    }
+
     if (!quantidade_Times || !quantidade_Jogadores_por_time){
         window.alert("Valores não informados! informe valores possitivos")
         return;
@@ -38,14 +43,13 @@ function sortearEquipes(){
     texto = ""
     contagem = 0
     for (let index_Time = 0; index_Time < quantidade_Times; index_Time++) {
-        texto = `${texto}\n\n time ${index_Time+1}`
+        texto = `${texto}\n\n TIME ${index_Time+1}`
             for (let index_jogadores = 0; index_jogadores < quantidade_Jogadores_por_time; index_jogadores++) {
                 texto =  `${texto}\n ${index_jogadores+1} - ${lista_sorteada[contagem]}`
                 contagem ++               
             }
     }
 
-    console.log(texto);
     document.getElementById("resultado").innerText = "Divisão de equipes"
     document.getElementById("times").classList.add("eqp-sort")
     document.getElementById("times").innerText = texto
