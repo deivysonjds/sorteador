@@ -1,7 +1,19 @@
-body {
+html, body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }
 
 header {
@@ -53,7 +65,11 @@ footer {
     background-color: lightgray;
     color: rgb(104, 104, 104);
     margin-bottom: 0px;
+    margin-top: 237px;
     width: 100%;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* left: 0; */
 }
 
 .footer-content {
